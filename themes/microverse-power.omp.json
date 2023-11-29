@@ -52,10 +52,10 @@
         {
           "background": "#242424",
           "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#8f3c3c{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#8f3c3c{{ end }}",
-            "{{ if gt .Ahead 0 }}#8f3c3c{{ end }}",
-            "{{ if gt .Behind 0 }}#8f3c3c{{ end }}"
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ffb33a{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ffb33a{{ end }}",
+            "{{ if gt .Ahead 0 }}#ffb33a{{ end }}",
+            "{{ if gt .Behind 0 }}#ffb33a{{ end }}"
           ],
           "foreground": "#3A86FF",
           "powerline_symbol": "\ue0b0",

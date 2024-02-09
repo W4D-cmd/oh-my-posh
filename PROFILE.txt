@@ -1,0 +1,5 @@
+oh-my-posh init pwsh --config 'C:/Users/W4D/microverse-power.omp.json' | Invoke-Expression
+Import-Module posh-git
+Import-Module PSReadLine
+Import-Module Terminal-Icons
+Import-Module CompletionPredictor
